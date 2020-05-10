@@ -1,829 +1,1054 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alta Tecnologia</title>
-
-    <!-- Bootstrap css file -->
+    <!-- Boostrap css file -->
     <link rel="stylesheet" href="./css/bootstrap.min.css">
 
-    <!-- font awesome icons -->
+    <!-- Font awesome icons -->
     <link rel="stylesheet" href="./css/all.min.css">
 
-    <!-- Magnific pop-up CSS file -->
-    <link rel="stylesheet" href="./vendor/Magnific-Popup/dist/magnific-popup.css">
+    <!--  Owl-carousel css file  -->
+    <link rel="stylesheet" href="./vendor/owl-carousel/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./vendor/owl-carousel/css/owl.theme.default.min.css">
+    <!-- <link rel="stylesheet" href="./vendor/owl-carousel/css/owl.carousel.css"> -->
 
-     <!--  Owl-carousel css file  -->
-     <link rel="stylesheet" href="./vendor/owl-carousel/css/owl.carousel.min.css">
-     <link rel="stylesheet" href="./vendor/owl-carousel/css/owl.theme.default.min.css">
- 
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
 
-    <!-- Custom CSS File -->
+    <!-- Custom css file -->
     <link rel="stylesheet" href="./css/style.css">
-
-    <!-- Responsive CSS file -->
-        <link rel="stylesheet" href="./css/responsive.css">
 
 
 </head>
+
 <body>
-    
-    <!-- ########################## Start Header Area ######################################### -->
-    <header class="header_area">
-        <div class="main-menu">
-            <nav class="navbar navbar-expand-lg navbar-light" id="mainNav" >
+    <!--################################### Start of Header Area ########################################## -->
+    <header class="header-area">
+        <div class="main-menu sticky-top">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <a class="navbar-brand" href="#">
-                    <img class="img-fluid" src="./images/Logo/logo.png" alt="logo">
+                    <img src="./images/Logo/logo.png" class="img-fluid " alt="Logo">
                 </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <div class="mr-auto"></div>
-                  <ul class="navbar-nav">
-                    <li class="nav-item active">
-                      <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#services">Services</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#product">Products</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#event">Events</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#testimonials">Testimonial</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#blog">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#team">About us</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#contact">Contact us</a>
-                    </li>
-                  </ul>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#service">Service</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#product">Product</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#event">Event</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#testimonials">Testimonials</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#blog">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact us</a>
+                        </li>
+                    </ul>
                 </div>
-              </nav>
+            </nav>
         </div>
-    </header> 
-    <!-- ########################## End Header Area ######################################### -->
+    </header>
+    <!--################################### End of Header Area  ############################################-->
 
-    <!--########################### Start Main Area ######################################### -->
+    <!--################################### Start of Main Area #############################################-->
     <main class="site-main">
-    <!-- ########################## Start Home Area #########################################-->
-        <section class="site-banner" id="home">
-            <div class="img-fluid" >
-                <img src="./uploads/banner-01.jpg" alt="Home" style="width:100%;">
+        <!--############################## Start Home area #################################################-->
+        <!-- <section class="home-area">
+
+            <div id="demo" class="carousel slide" data-ride="carousel">
+                <ul class="carousel-indicators">
+                    <li data-target="#demo" data-slide-to="0" class="active"></li>
+                    <li data-target="#demo" data-slide-to="1"></li>
+                    <li data-target="#demo" data-slide-to="2"></li>
+                </ul>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./images/Home/4.jpg" alt="Los Angeles" width="1100" height="500">
+                        <div class="carousel-caption">
+                            <h3>Los Angeles</h3>
+                            <p>We had such a great time in LA!</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/Home/6.jpg" alt="Chicago" width="1100" height="500">
+                        <div class="carousel-caption">
+                            <h3>Chicago</h3>
+                            <p>Thank you, Chicago!</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/Home/5.jpg" alt="New York" width="1100" height="500">
+                        <div class="carousel-caption">
+                            <h3>New York</h3>
+                            <p>We love the Big Apple!</p>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
             </div>
-            
-	    </section>
-    <!-- ########################## End Home Area #########################################-->
 
+        </section> -->
+        <!--############################## End Home area #################################################-->
+        <!-- <section class="site-banner" id="home">
+            <div class="img-fluid">
+                <img src="./images/Home/6.jpg" alt="Home" style="width:100%;">
+            </div>
 
+        </section> -->
+        <section class="home">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./images/Home/1.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <p class="heading">
+                                Welcome to Alta Tecnologia
+                            </p>
+                            <p class="sub-heading">
+                                We offer Home Automation
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/Home/2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/Home/3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </section>
 
-    <!-- ########################## Start Service Area ####################################-->
+        <!--#################################### Start of Service Area ########################################-->
+        <!-- service -->
+        <section class="service-area" id="service" class="pb-5">
+            <div class="container">
+                <h5 class="section-title h1">OUR service</h5>
+                <div class="row">
+                    <!-- service member -->
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div class="image-flip">
+                            <div class="mainflip flip-0">
+                                <div class="frontside">
+                                    <div class="card">
+                                        <div class="card-body text-center">
+                                            <p><img class=" img-fluid" src="./images/services/1.png" alt="card image">
+                                            </p>
+                                            <h4 class="card-title">IOT DEVELOPEMENT</h4>
+                                            <p class="card-text">This is basic card with image on top, title,
+                                                description and button.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="backside">
+                                    <div class="card">
+                                        <div class="card-body text-center mt-4">
+                                            <h4 class="card-title">IOT DEVELOPEMENT</h4>
+                                            <p class="card-text">This is basic card with image on top, title,
+                                                description and button.This is basic card with image on top, title,
+                                                description and button.This is basic card with image on top, title,
+                                                description and button.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ./service member -->
+                    <!-- service member -->
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                            <div class="mainflip">
+                                <div class="frontside">
+                                    <div class="card">
+                                        <div class="card-body text-center">
+                                            <p><img class=" img-fluid" src="./images/services/2.png" alt="card image">
+                                            </p>
+                                            <h4 class="card-title">SECURITY SOLUTIONS</h4>
+                                            <p class="card-text">This is basic card with image on top, title,
+                                                description and button.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="backside">
+                                    <div class="card">
+                                        <div class="card-body text-center mt-4">
+                                            <h4 class="card-title">SECURITY SOLUTIONS</h4>
+                                            <p class="card-text">This is basic card with image on top, title,
+                                                description and button.This is basic card with image on top, title,
+                                                description and button.This is basic card with image on top, title,
+                                                description and button.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ./service member -->
+                    <!-- service member -->
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                            <div class="mainflip">
+                                <div class="frontside">
+                                    <div class="card">
+                                        <div class="card-body text-center">
+                                            <p><img class=" img-fluid" src="./images/services/3.png" alt="card image">
+                                            </p>
+                                            <h4 class="card-title">CUSTOMISED IOT PLATFORM</h4>
+                                            <p class="card-text">This is basic card with image on top, title,
+                                                description and button.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="backside">
+                                    <div class="card">
+                                        <div class="card-body text-center mt-4">
+                                            <h4 class="card-title">CUSTOMISED IOT PLATFORM</h4>
+                                            <p class="card-text">This is basic card with image on top, title,
+                                                description and button.This is basic card with image on top, title,
+                                                description and button.This is basic card with image on top, title,
+                                                description and button.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ./service member -->
+                    <!-- service member -->
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                            <div class="mainflip">
+                                <div class="frontside">
+                                    <div class="card">
+                                        <div class="card-body text-center">
+                                            <p><img class=" img-fluid" src="./images/services/4.png" alt="card image">
+                                            </p>
+                                            <h4 class="card-title">SAFETY SOLUTIONS</h4>
+                                            <p class="card-text">This is basic card with image on top, title,
+                                                description and button.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="backside">
+                                    <div class="card">
+                                        <div class="card-body text-center mt-4">
+                                            <h4 class="card-title">SAFETY SOLUTIONS</h4>
+                                            <p class="card-text">This is basic card with image on top, title,
+                                                description and button.This is basic card with image on top, title,
+                                                description and button.This is basic card with image on top, title,
+                                                description and button.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ./service member -->
+                    <!-- service member -->
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                            <div class="mainflip">
+                                <div class="frontside">
+                                    <div class="card">
+                                        <div class="card-body text-center">
+                                            <p><img class=" img-fluid" src="./images/services/5.png" alt="card image">
+                                            </p>
+                                            <h4 class="card-title">EFFICIENT DESIGNS</h4>
+                                            <p class="card-text">This is basic card with image on top, title,
+                                                description and button.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="backside">
+                                    <div class="card">
+                                        <div class="card-body text-center mt-4">
+                                            <h4 class="card-title">EFFICIENT DESIGNS</h4>
+                                            <p class="card-text">This is basic card with image on top, title,
+                                                description and button.This is basic card with image on top, title,
+                                                description and button.This is basic card with image on top, title,
+                                                description and button.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ./service member -->
+                    <!-- service member -->
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                            <div class="mainflip">
+                                <div class="frontside">
+                                    <div class="card">
+                                        <div class="card-body text-center">
+                                            <p><img class=" img-fluid" src="./images/services/6.png" alt="card image">
+                                            </p>
+                                            <h4 class="card-title">24/7 SUPPORT</h4>
+                                            <p class="card-text">This is basic card with image on top, title,
+                                                description and button.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="backside">
+                                    <div class="card">
+                                        <div class="card-body text-center mt-4">
+                                            <h4 class="card-title">24/7 SUPPORT</h4>
+                                            <p class="card-text">This is basic card with image on top, title,
+                                                description and button.This is basic card with image on top, title,
+                                                description and button.This is basic card with image on top, title,
+                                                description and button.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ./service member -->
 
-    <selection id="services" class="services-area">
-         <!-- <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center services-title">
-                    <h1 class="text-uppercase title-text">Services Offers</h1>
                 </div>
             </div>
-        </div> -->
-        
-        <div class="container services-list ">
-            <div class="row">
-                <div class=" col-md-4 col-12">
-                    <div class="services">
-                        <div class="sevices-img text-center py-4">
-                            <img src="./images/services/1.png" alt="Services-1" style="width: 25%;">
-                        </div>
-                        <div class="card-body text-center">
-                            <h5 class="card-title text-uppercase ">Wp developer</h5>
-                            <p class="card-text text-secondary">
-                                Some quick example text to build on the card
-                                title and make up
-                                the bulk of the card's content.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-12">
-                    <div class="services">
-                        <div class="sevices-img text-center py-4">
-                            <img src="./images/services/2.png" alt="Services-2" style="width: 25%;">
-                        </div>
-                        <div class="card-body text-center">
-                            <h5 class="card-title text-uppercase ">ux/ui desing</h5>
-                            <p class="card-text text-secondary">
-                                Some quick example text to build on the card
-                                title and make up
-                                the bulk of the card's content.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-12">
-                    <div class="services">
-                        <div class="sevices-img text-center py-4">
-                            <img src="./images/services/3.png" alt="Services-3" style="width: 25%;">
-                        </div>
-                        <div class="card-body text-center">
-                            <h5 class="card-title text-uppercase ">web design</h5>
-                            <p class="card-text text-secondary">
-                                Some quick example text to build on the card
-                                title and make up
-                                the bulk of the card's content.
-                            </p>
-                        </div>
-                    </div>
-                </div>    
-                        
-    </div>
-      <div class="row">
-               <div class="col-md-4 col-12">
-                    <div class="services">
-                        <div class="sevices-img text-center py-4">
-                            <img src="./images/services/4.png" alt="Services-4" style="width: 25%;">
-                        </div>
-                        <div class="card-body text-center">
-                            <h5 class="card-title text-uppercase ">seo optimize</h5>
-                            <p class="card-text text-secondary">
-                                Some quick example text to build on the card
-                                title and make up
-                                the bulk of the card's content.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-12">
-                    <div class="services">
-                        <div class="sevices-img text-center py-4">
-                            <img src="./images/services/5.png" alt="Services-5" style="width: 25%;">
-                        </div>
-                        <div class="card-body text-center">
-                            <h5 class="card-title text-uppercase ">seo optimize</h5>
-                            <p class="card-text text-secondary">
-                                Some quick example text to build on the card
-                                title and make up
-                                the bulk of the card's content.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-12">
-                    <div class="services">
-                        <div class="sevices-img text-center py-4">
-                            <img src="./images/services/6.png" alt="Services-6" style="width: 25%;">
-                        </div>
-                        <div class="card-body text-center">
-                            <h5 class="card-title text-uppercase ">seo optimize</h5>
-                            <p class="card-text text-secondary">
-                                Some quick example text to build on the card
-                                title and make up
-                                the bulk of the card's content.
-                            </p>
-                        </div>
-                    </div>
-        </div>
-      </div>
-        </div>
+        </section>
+        <!-- service -->
 
-    </selection>
-    <!-- ########################## End Service Area ####################################-->
+        <!--#################################### End of Service Area ########################################-->
 
-            <!--  ======================= Project Area =============================  -->
+        <!--#################################### start of Product Area ########################################-->
+        <section id="product" class="product">
+            <div class="container">
+                <h1 class="text-center">Our Products</h3>
 
-            <section id="product" class="project-area">
-                <div class="container">
-                    <div class="button-group">
-                        <button type="button" class="active" id="btn1" data-filter="*">All</button>
-                        <button type="button" data-filter=".popular">Popular</button>
-                        <button type="button" data-filter=".latest">Latest</button>
-                        <button type="button" data-filter=".following">Following</button>
-                        <button type="button" data-filter=".upcoming">Upcoming</button>
+                    <div class="row">
+                        <div class="col-md-4 justify-content-center">
+                            <div class="card shadow" style="width: 20rem;">
+                                <div class="inner">
+                                    <img class="card-img-top" src="./images/portfolio/p1.jpg" alt="Card image cap">
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Product 1</h5>
+                                    <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                                    <a href="#" class="btn btn-success" data-target="#my_model_1"
+                                        data-toggle="modal">Show more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 justify-content-center">
+                            <div class="card shadow" style="width: 20rem;">
+                                <div class="inner">
+                                    <img class="card-img-top" src="./images/portfolio/p2.jpg" alt="Card image cap">
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Product 2</h5>
+                                    <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                                    <a href="#" class="btn btn-success" data-target="#my_model_2"
+                                        data-toggle="modal">Show more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 justify-content-center">
+                            <div class="card shadow" style="width: 20rem;">
+                                <div class="inner">
+                                    <img class="card-img-top" src="/images/portfolio/p3.jpg" alt="Card image cap">
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Product 3</h5>
+                                    <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                                    <a href="#" class="btn btn-success" data-target="#my_model_3"
+                                        data-toggle="modal">Show more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 justify-content-center">
+                            <div class="card shadow" style="width: 20rem;">
+                                <div class="inner">
+                                    <img class="card-img-top" src="/images/portfolio/p5.jpg" alt="Card image cap">
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Product 4</h5>
+                                    <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                                    <a href="#" class="btn btn-success" data-target="#my_model_4"
+                                        data-toggle="modal">Show more</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-    
-                    <div class="row grid">
-                        <div class="col-lg-4 col-md-6 col-sm-12 element-item latest">
-                            <div class="our-project">
-                                <div class="img">
-                                    <a class="test-popup-link" href="./images/portfolio/p1.jpg">
-                                        <img src="./images/portfolio/p1.jpg" alt="portfolio-1" class="img-fluid">
-                                    </a>
+
+                    <!-- Start of Modal portion -->
+
+                    <div class="modal fade" id="my_model_1">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <!-- <h1 class="text-center">SignUp</h1> -->
+                                    <button type="button" class="close " data-dismiss="modal">&times;</button>
                                 </div>
-                                <div class="title py-4">
-                                    <h4 class="text-uppercase">Minimul Desing</h4>
-                                    <span class="text-secondary">Latest, Portfolio</span>
-                                    <div class="call-now">
-                                        <a href="https://www.amazon.com" target="_blank" class="text-uppercase font-roboto">Buy Now</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 element-item popular">
-                            <div class="our-project">
-                                <div class="img">
-                                    <a class="test-popup-link" href="./images/portfolio/p2.jpg">
-                                        <img src="./images/portfolio/p2.jpg" alt="portfolio-2" class="img-fluid">
-                                    </a>
-                                </div>
-                                <div class="title py-4">
-                                    <h4 class="text-uppercase">Paint Wall</h4>
-                                    <span class="text-secondary">Popular, Portfolio</span>
-                                    <div class="call-now">
-                                        <a href="https://www.amazon.com" target="_blank" class="text-uppercase font-roboto">Buy Now</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 element-item popular">
-                            <div class="our-project">
-                                <div class="img">
-                                    <a class="test-popup-link" href="./images/portfolio/p3.jpg">
-                                        <img src="./images/portfolio/p3.jpg" alt="portfolio-3" class="img-fluid">
-                                    </a>
-                                </div>
-                                <div class="title py-4">
-                                    <h4 class="text-uppercase">Female light</h4>
-                                    <span class="text-secondary">Popular, Portfolio</span>
-                                    <div class="call-now">
-                                        <a href="https://www.amazon.com" target="_blank" class="text-uppercase font-roboto">Buy Now</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 element-item upcoming">
-                            <div class="our-project">
-                                <div class="img">
-                                    <a class="test-popup-link" href="./images/portfolio/p4.jpg">
-                                        <img src="./images/portfolio/p4.jpg" alt="portfolio-4" class="img-fluid">
-                                    </a>
-                                </div>
-                                <div class="title py-4">
-                                    <h4 class="text-uppercase">Fourth Air</h4>
-                                    <span class="text-secondary">Upcoming, Portfolio</span>
-                                    <div class="call-now">
-                                        <a href="https://www.amazon.com" target="_blank" class="text-uppercase font-roboto">Buy Now</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 element-item upcoming">
-                            <div class="our-project">
-                                <div class="img">
-                                    <a class="test-popup-link" href="./images/portfolio/p5.jpg">
-                                        <img src="./images/portfolio/p5.jpg" alt="portfolio-5" class="img-fluid">
-                                    </a>
-                                </div>
-                                <div class="title py-4">
-                                    <h4 class="text-uppercase">Muliple fown</h4>
-                                    <span class="text-secondary">Upcoming, Portfolio</span>
-                                    <div class="call-now">
-                                        <a href="https://www.amazon.com" target="_blank" class="text-uppercase font-roboto">Buy Now</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 element-item following">
-                            <div class="our-project">
-                                <div class="img">
-                                    <a class="test-popup-link" href="./images/portfolio/p6.jpg">
-                                        <img src="./images/portfolio/p6.jpg" alt="portfolio-6" class="img-fluid">
-                                    </a>
-                                </div>
-                                <div class="title py-4">
-                                    <h4 class="text-uppercase">Together sign</h4>
-                                    <span class="text-secondary">Following, Portfolio</span>
-                                    <div class="call-now">
-                                        <a href="https://www.amazon.com" target="_blank" class="text-uppercase font-roboto">Buy Now</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 element-item following">
-                            <div class="our-project">
-                                <div class="img">
-                                    <a class="test-popup-link" href="./images/portfolio/p7.jpg">
-                                        <img src="./images/portfolio/p7.jpg" alt="portfolio-7" class="img-fluid">
-                                    </a>
-                                </div>
-                                <div class="title py-4">
-                                    <h4 class="text-uppercase">Green Heaven</h4>
-                                    <span class="text-secondary">Following, Portfolio</span>
-                                    <div class="call-now">
-                                        <a href="https://www.amazon.com" target="_blank" class="text-uppercase font-roboto">Buy Now</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 element-item following">
-                            <div class="our-project">
-                                <div class="img">
-                                    <a class="test-popup-link" href="./images/portfolio/p8.jpg">
-                                        <img src="./images/portfolio/p8.jpg" alt="portfolio-8" class="img-fluid">
-                                    </a>
-                                </div>
-                                <div class="title py-4">
-                                    <h4 class="text-uppercase">Fly Male</h4>
-                                    <span class="text-secondary">Following, Portfolio</span>
-                                    <div class="call-now">
-                                        <a href="https://www.amazon.com" target="_blank" class="text-uppercase font-roboto">Buy Now</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 element-item upcoming">
-                            <div class="our-project">
-                                <div class="img">
-                                    <a class="test-popup-link" href="./images/portfolio/p9.jpg">
-                                        <img src="./images/portfolio/p9.jpg" alt="portfolio-9" class="img-fluid">
-                                    </a>
-                                </div>
-                                <div class="title py-4">
-                                    <h4 class="text-uppercase">Camera Lens</h4>
-                                    <span class="text-secondary">Upcoming, Portfolio</span>
-                                    <div class="call-now">
-                                        <a href="https://www.amazon.com" target="_blank" class="text-uppercase font-roboto">Buy Now</a>
+                                <div class="modal-body">
+                                    <div class="card">
+                                        <!-- <img class="card-img-top" src="./Alta/images/portfolio/p1.jpg" alt="Card image cap"> -->
+                                        <iframe id="cartoonVideo1" width="100%" height="auto"
+                                            src="https://www.youtube.com/embed/tgbNymZ7vqY?"
+                                            allowfullscreen="allowfullscreen"></iframe>
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">Product 1</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and
+                                                make up the bulk of the card's content. Lorem ipsum dolor sit, amet
+                                                consectetur adipisicing elit. Dolorum consequuntur recusandae maxime in
+                                                nesciunt, veniam tenetur facere. Debitis commodi explicabo eligendi quas
+                                                repellendus, ipsam eveniet ratione odit aspernatur iure cum?</p>
+                                            <a href="https://www.amazon.in/" target="_blank" class="btn btn-success">Buy
+                                                Now</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </section>
-    
-            <!--  ======================= End Project Area =============================  -->
-    
-    <!--  ======================= Start Event Area =============================  -->
-            <section id="event" class="event-area">
-                <div class="container">
-<!--                     
-                    <div class="event-title pb-5">
-                        <div class="text-uppercase title-h1">
-                            Recently done Events
+                    <div class="modal fade" id="my_model_2">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <!-- <h1 class="text-center">SignUp</h1> -->
+                                    <button type="button" class="close " data-dismiss="modal">&times;</button>
+                                </div>
+                                <div class="card">
+                                    <iframe id="cartoonVideo2" width="100%" height="auto"
+                                        src="https://www.youtube.com/embed/tgbNymZ7vqY"
+                                        allowfullscreen="allowfullscreen"></iframe>
+                                    <!-- <img class="card-img-top" src="./Alta/images/portfolio/p2.jpg" alt="Card image cap"> -->
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">Product 2</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up the bulk of the card's content. Lorem ipsum dolor sit, amet consectetur
+                                            adipisicing elit. Dolorum consequuntur recusandae maxime in nesciunt, veniam
+                                            tenetur facere. Debitis commodi explicabo eligendi quas repellendus, ipsam
+                                            eveniet ratione odit aspernatur iure cum?</p>
+                                        <a href="https://www.amazon.in/" target="_blank" class="btn btn-success">Buy
+                                            Now</a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                    </div> -->
+                    </div>
+                    <div class="modal fade" id="my_model_3">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <!-- <h1 class="text-center">SignUp</h1> -->
+                                    <button type="button" class="close " data-dismiss="modal">&times;</button>
+                                </div>
+                                <div class="card">
+                                    <!-- <img class="card-img-top" src="./Alta/images/portfolio/p3.jpg" alt="Card image cap"> -->
+                                    <iframe id="cartoonVideo3" width="100%" height="auto"
+                                        src="https://www.youtube.com/embed/tgbNymZ7vqY"
+                                        allowfullscreen="allowfullscreen"></iframe>
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">Product 3</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up the bulk of the card's content. Lorem ipsum dolor sit, amet consectetur
+                                            adipisicing elit. Dolorum consequuntur recusandae maxime in nesciunt, veniam
+                                            tenetur facere. Debitis commodi explicabo eligendi quas repellendus, ipsam
+                                            eveniet ratione odit aspernatur iure cum?</p>
+                                        <a href="https://www.amazon.in/" target="_blank" class="btn btn-success">Buy
+                                            Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="modal fade" id="my_model_4">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <!-- <h1 class="text-center">SignUp</h1> -->
+                                    <button type="button" class="close " data-dismiss="modal">&times;</button>
+                                </div>
+                                <div class="card">
+                                    <!-- <img class="card-img-top" src="./Alta/images/portfolio/p3.jpg" alt="Card image cap"> -->
+                                    <iframe id="cartoonVideo4" width="100%" height="auto"
+                                        src="https://www.youtube.com/embed/tgbNymZ7vqY"
+                                        allowfullscreen="allowfullscreen"></iframe>
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">Product 4</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up the bulk of the card's content. Lorem ipsum dolor sit, amet consectetur
+                                            adipisicing elit. Dolorum consequuntur recusandae maxime in nesciunt, veniam
+                                            tenetur facere. Debitis commodi explicabo eligendi quas repellendus, ipsam
+                                            eveniet ratione odit aspernatur iure cum?</p>
+                                        <a href="https://www.amazon.in/" target="_blank" class="btn btn-success">Buy
+                                            Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+            </div>
+        </section>
+        <!--#################################### End of Product Area ########################################-->
+
+
+        <!--#################################### Start of Event Section #######################################-->
+        <section id="event" class="event-area">
+            <div class="container">
+                <h1 class="text-center">Our Events</h3>
+
                     <div class="button-group">
                         <button type="button" class="active" id="btn2">All</button>
-                        <button type="button" data-filter=".up" >Upcoming</button>
-                        <button type="button" data-filter=".pa">past</button>
-                    </div>
-                    <div class="row grid">
-                        <div class="col-lg-4 col-md-6 col-sm-12 element-item up">
-                            <div class="our-event">
-                                <div class="img">
-                                    <a class="test-popup-link" href="./images/Events/p1.jpg">
-                                        <img src="./images/Events/p1.jpg" alt="Event-1" class="img-fluid">
-                                    </a>
-                                </div>
+                        <button type="button" data-filter=".Upcoming">Upcoming</button>
+                        <button type="button" data-filter=".past">past</button>
+                        <div class="row grid mt-4">
+                            <div class="col-md-3 element-item past">
+                                <img src="./images/portfolio/p1.jpg" alt="">
                                 <div class="title py-4">
-                                    <h4 class="text-uppercase">Minimul Desing</h4>
-                                    <span class="text-secondary">Latest, Portfolio</span>
+                                    <h4 class="text-uppercase">
+                                        Event name 1
+                                    </h4>
+                                    <a href="#" class="btn btn-success" data-target="#event_1" data-toggle="modal">Show
+                                        more</a>
+                                </div>
+
+                            </div>
+                            <div class="col-md-3 element-item past">
+                                <img src="./images/portfolio/p2.jpg" alt="">
+                                <div class="title py-4">
+                                    <h4 class="text-uppercase">
+                                        Event name 2
+                                    </h4>
+                                    <a href="#" class="btn btn-success" data-target="#event_2" data-toggle="modal">Show
+                                        more</a>
+
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 element-item pa">
-                            <div class="our-event">
-                                <div class="img">
-                                    <a class="test-popup-link" href="./images/Events/p2.jpg">
-                                        <img src="./images/Events/p2.jpg" alt="Event-2" class="img-fluid">
-                                    </a>
-                                </div>
+                            <div class="col-md-3 element-item Upcoming">
+                                <img src="./images/portfolio/p3.jpg" alt="">
                                 <div class="title py-4">
-                                    <h4 class="text-uppercase">Paint Wall</h4>
-                                    <span class="text-secondary">Popular, Portfolio</span>
+                                    <h4 class="text-uppercase">
+                                        Event name 3
+                                    </h4>
+                                    <a href="#" class="btn btn-success" data-target="#event_3" data-toggle="modal">Show
+                                        more</a>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 element-item pa">
-                            <div class="our-event">
-                                <div class="img">
-                                    <a class="test-popup-link" href="./images/Events/p3.jpg">
-                                        <img src="./images/Events/p3.jpg" alt="Event-3" class="img-fluid">
-                                    </a>
-                                </div>
+                            <div class="col-md-3 element-item Upcoming">
+                                <img src="./images/portfolio/p5.jpg" alt="">
                                 <div class="title py-4">
-                                    <h4 class="text-uppercase">Female light</h4>
-                                    <span class="text-secondary">Popular, Portfolio</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 element-item up">
-                            <div class="our-event">
-                                <div class="img">
-                                    <a class="test-popup-link" href="./images/Events/p4.jpg">
-                                        <img src="./images/Events/p4.jpg" alt="Event-4" class="img-fluid">
-                                    </a>
-                                </div>
-                                <div class="title py-4">
-                                    <h4 class="text-uppercase">Fourth Air</h4>
-                                    <span class="text-secondary">Upcoming, Portfolio</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 element-item up">
-                            <div class="our-event">
-                                <div class="img">
-                                    <a class="test-popup-link" href="./images/Events/p5.jpg">
-                                        <img src="./images/Events/p5.jpg" alt="Events-5" class="img-fluid">
-                                    </a>
-                                </div>
-                                <div class="title py-4">
-                                    <h4 class="text-uppercase">Muliple fown</h4>
-                                    <span class="text-secondary">Upcoming, Portfolio</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 element-item pa">
-                            <div class="our-event">
-                                <div class="img">
-                                    <a class="test-popup-link" href="./images/Events/p6.jpg">
-                                        <img src="./images/Events/p6.jpg" alt="Event-6" class="img-fluid">
-                                    </a>
-                                </div>
-                                <div class="title py-4">
-                                    <h4 class="text-uppercase">Together sign</h4>
-                                    <span class="text-secondary">Following, Portfolio</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 element-item pa">
-                            <div class="our-event">
-                                <div class="img">
-                                    <a class="test-popup-link" href="./images/Events/p7.jpg">
-                                        <img src="./images/Events/p7.jpg" alt="Event-7" class="img-fluid">
-                                    </a>
-                                </div>
-                                <div class="title py-4">
-                                    <h4 class="text-uppercase">Green Heaven</h4>
-                                    <span class="text-secondary">Following, Portfolio</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 element-item up">
-                            <div class="our-event">
-                                <div class="img">
-                                    <a class="test-popup-link" href="./images/Events/p8.jpg">
-                                        <img src="./images/Events/p8.jpg" alt="Event-8" class="img-fluid">
-                                    </a>
-                                </div>
-                                <div class="title py-4">
-                                    <h4 class="text-uppercase">Fly Male</h4>
-                                    <span class="text-secondary">Following, Portfolio</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 element-item up">
-                            <div class="our-event">
-                                <div class="img">
-                                    <a class="test-popup-link" href="./images/Events/p9.jpg">
-                                        <img src="./images/Events/p9.jpg" alt="Event-9" class="img-fluid">
-                                    </a>
-                                </div>
-                                <div class="title py-4">
-                                    <h4 class="text-uppercase">Camera Lens</h4>
-                                    <span class="text-secondary">Upcoming, Portfolio</span>
+                                    <h4 class="text-uppercase">
+                                        Event name 4
+                                    </h4>
+                                    <a href="#" class="btn btn-success" data-target="#event_4" data-toggle="modal">Show
+                                        more</a>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                </div>
-            </section>
-   
-    <!--  ======================= End Event Area =============================  -->
+                    <div class="modal fade" id="event_1">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <!-- <h1 class="text-center">SignUp</h1> -->
+                                    <button type="button" class="close " data-dismiss="modal">&times;</button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="card">
+                                        <!-- <img class="card-img-top" src="./Alta/images/portfolio/p1.jpg" alt="Card image cap"> -->
+                                        <iframe id="event_video_1" width="100%" height="auto"
+                                            src="https://www.youtube.com/embed/tgbNymZ7vqY?"
+                                            allowfullscreen="allowfullscreen"></iframe>
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">Event 1</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and
+                                                make up the bulk of the
+                                                card's content. Lorem ipsum dolor sit, amet consectetur adipisicing
+                                                elit. Dolorum consequuntur
+                                                recusandae maxime in nesciunt, veniam tenetur facere. Debitis commodi
+                                                explicabo eligendi quas
+                                                repellendus, ipsam eveniet ratione odit aspernatur iure cum?</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="event_2">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <!-- <h1 class="text-center">SignUp</h1> -->
+                                    <button type="button" class="close " data-dismiss="modal">&times;</button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="card">
+                                        <!-- <img class="card-img-top" src="./Alta/images/portfolio/p1.jpg" alt="Card image cap"> -->
+                                        <iframe id="event_video_2" width="100%" height="auto"
+                                            src="https://www.youtube.com/embed/tgbNymZ7vqY?"
+                                            allowfullscreen="allowfullscreen"></iframe>
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">Event 2</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and
+                                                make up the bulk of the
+                                                card's content. Lorem ipsum dolor sit, amet consectetur adipisicing
+                                                elit. Dolorum consequuntur
+                                                recusandae maxime in nesciunt, veniam tenetur facere. Debitis commodi
+                                                explicabo eligendi quas
+                                                repellendus, ipsam eveniet ratione odit aspernatur iure cum?</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="event_3">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <!-- <h1 class="text-center">SignUp</h1> -->
+                                    <button type="button" class="close " data-dismiss="modal">&times;</button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="card">
+                                        <!-- <img class="card-img-top" src="./Alta/images/portfolio/p1.jpg" alt="Card image cap"> -->
+                                        <iframe id="event_video_3" width="100%" height="auto"
+                                            src="https://www.youtube.com/embed/tgbNymZ7vqY?"
+                                            allowfullscreen="allowfullscreen"></iframe>
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">Event 3</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and
+                                                make up the bulk of the
+                                                card's content. Lorem ipsum dolor sit, amet consectetur adipisicing
+                                                elit. Dolorum consequuntur
+                                                recusandae maxime in nesciunt, veniam tenetur facere. Debitis commodi
+                                                explicabo eligendi quas
+                                                repellendus, ipsam eveniet ratione odit aspernatur iure cum?</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="event_4">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <!-- <h1 class="text-center">SignUp</h1> -->
+                                    <button type="button" class="close " data-dismiss="modal">&times;</button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="card">
+                                        <!-- <img class="card-img-top" src="./Alta/images/portfolio/p1.jpg" alt="Card image cap"> -->
+                                        <iframe id="event_video_4" width="100%" height="auto"
+                                            src="https://www.youtube.com/embed/tgbNymZ7vqY?"
+                                            allowfullscreen="allowfullscreen"></iframe>
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">Event 4</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and
+                                                make up the bulk of the
+                                                card's content. Lorem ipsum dolor sit, amet consectetur adipisicing
+                                                elit. Dolorum consequuntur
+                                                recusandae maxime in nesciunt, veniam tenetur facere. Debitis commodi
+                                                explicabo eligendi quas
+                                                repellendus, ipsam eveniet ratione odit aspernatur iure cum?</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-    <!--  ======================= Start Testimonial Area =============================  -->
-            <section id="testimonials" class="testimonial-area">
+            </div>
+        </section>
+        <!--#################################### End of Event Section #######################################-->
+
+
+
+
+        <!--############################## Start of Testimonials  #######################################-->
+        <section id="testimonials" class="testimonial-area">
+            <div class="testimonials-cover">
+                <h3 class="text-center">What our customer say</h3>
                 <div class="container">
-                    <div class="row text-center">
-                        <div class="col-12">
-                            <div class="about-title">
-                                <h1 class="text-uppercase title-h1">Client Say about us</h1>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-    
-                <div class="container carousel py-lg-5">
-                    <div class="owl-carousel owl-theme">
-                        <div class="client row">
-                            <div class="col-lg-4 col-12 client-img">
-                                <img src="./images/testimonials/t1.jpg" alt="img1" class="img-fluid">
-                            </div>
-                            <div class="col-lg-8 col-12 about-client">
-                                <h5>JOHN MARTIN</h5>
-                                <h4 class="about">CEO, ABC</h4>
-                                <p class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem architecto
-                                    consequuntur ratione, obcaecati corrupti deserunt.</p>
-                            </div>
-                        </div>
-                        <div class="client row">
-                            <div class="col-lg-4 col-12 client-img">
-                                <img src="./images/testimonials/t2.jpg" alt="img2" class="img-fluid">
-                            </div>
-                            <div class="col-lg-8 col-12 about-client">
-                                <h5>MAC HILL</h5>
-                                <h4  class="about">CEO, CDE</h4>
-                                <p class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem architecto
-                                    consequuntur ratione, obcaecati corrupti deserunt.</p>
-                            </div>
-                        </div>
-                        <div class="client row">
-                            <div class="col-lg-4 col-12 client-img">
-                                <img src="./images/testimonials/t1.jpg" alt="img1" class="img-fluid">
-                            </div>
-                            <div class="col-lg-8 col-12 about-client">
-                                <h5>JOHN MARTIN</h5>
-                                <h4  class="about">CEO, ABC</h4>
-                                <p class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem architecto
-                                    consequuntur ratione, obcaecati corrupti deserunt.</p>
-                            </div>
-                        </div>
-                        <div class="client row">
-                            <div class="col-lg-4 col-12 client-img">
-                                <img src="./images/testimonials/t2.jpg" alt="img2" class="img-fluid">
-                            </div>
-                            <div class="col-lg-8 col-12 about-client">
-                                <h5>MAC HILL</h5>
-                                <h4 class="about">CEO, CDE</h4>
-                                <p class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem architecto
-                                    consequuntur ratione, obcaecati corrupti deserunt.</p>
-                            </div>
-                        </div>
-                        <div class="client row">
-                            <div class="col-lg-4 col-12 client-img">
-                                <img src="./images/testimonials/t1.jpg" alt="img1" class="img-fluid">
-                            </div>
-                            <div class="col-lg-8 col-12 about-client">
-                                <h5>JOHN MARTIN</h5>
-                                <h4 class="about">CEO, ABC</h4>
-                                <p class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem architecto
-                                    consequuntur ratione, obcaecati corrupti deserunt.</p>
-                            </div>
-                        </div>
-                        <div class="client row">
-                            <div class="col-lg-4 col-12 client-img">
-                                <img src="./images/testimonials/t2.jpg" alt="img2" class="img-fluid">
-                            </div>
-                            <div class="col-lg-8 col-12 about-client">
-                                <h5>MAC HILL</h5>
-                                <h4 class="about">CEO, CDE</h4>
-                                <p class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem architecto
-                                    consequuntur ratione, obcaecati corrupti deserunt.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-    
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div id="customers-testimonial" class="text-center owl-carousel owl-theme">
+                                <div class="testomonial">
+                                    <img src="./images/testimonials/t1.jpg" alt="Client 1"
+                                        class="img-responsive img-circle">
+                                    <blockquote class="text-center">
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Repudiandae mollitia earum architecto asperiores aliquam laborum,
+                                            numquam ducimus voluptas cumque! Ab in aperiam quos. Illum ipsum ducimus eos
+                                            quo cum excepturi.
 
-            </section>
+                                        </p>
+                                    </blockquote>
+                                    <div class="testimonial-author">
+                                        <p>
+                                            <strong>Daniel Watrosu</strong>
+                                            <span>CEO & Founder - Google</span>
+                                        </p>
+                                    </div>
+                                </div>
 
-    <!--  ======================= End Testimonial Area =============================  -->
-    
-    <!--  ======================= Start Blog Area =============================  -->
-    
-    <section id="blog" class="blog-area">
-        <div class="fluid-container">
-            <div class="row">
-                <div class="col-md-4 col-12">
-                    <div class="card-content mb-3 w-100">
-                        <div class="card-img">
-                            <img src="https://placeimg.com/380/230/nature" alt="">
-                            <span><h4> Jan 2020</h4></span>
-                        </div>
-                        <div class="card-desc">
-                            <h3>heading</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, voluptatum! Dolor quo, perspiciatis
-                                voluptas totam</p>
-                                <a href="#" class="btn-card">Read</a>   
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-12">
-                    <div class="card-content  mb-3">
-                        <div class="card-img">
-                            <img src="https://placeimg.com/380/230/animals" alt="">
-                            <span><h4> Feb 2020</h4></span>
-                        </div>
-                        <div class="card-desc">
-                            <h3>Heading2</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, voluptatum! Dolor quo, perspiciatis
-                                voluptas totam</p>
-                                <a href="#" class="btn-card">Read</a>   
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-12">
-                    <div class="card-content  mb-3">
-                        <div class="card-img">
-                            <img src="https://placeimg.com/380/230/tech" alt="">
-                            <span><h4> Mar 2020</h4></span>
-                        </div>
-                        <div class="card-desc">
-                            <h3>Heading3</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, voluptatum! Dolor quo, perspiciatis
-                                voluptas totam</p>
-                                <a href="#" class="btn-card">Read</a>   
+                                <div class="testomonial">
+                                    <img src="./images/testimonials/t2.jpg" alt="Client 1"
+                                        class="img-responsive img-circle">
+                                    <blockquote class="text-center">
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Repudiandae mollitia earum architecto asperiores aliquam laborum,
+                                            numquam ducimus voluptas cumque! Ab in aperiam quos. Illum ipsum ducimus eos
+                                            quo cum excepturi.
+
+                                        </p>
+                                    </blockquote>
+                                    <div class="testimonial-author">
+                                        <p>
+                                            <strong>Daniel Watrosu</strong>
+                                            <span>CEO & Founder - Google</span>
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="testomonial">
+                                    <img src="./images/testimonials/t1.jpg" alt="Client 1"
+                                        class="img-responsive img-circle">
+                                    <blockquote class="text-center">
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Repudiandae mollitia earum architecto asperiores aliquam laborum,
+                                            numquam ducimus voluptas cumque! Ab in aperiam quos. Illum ipsum ducimus eos
+                                            quo cum excepturi.
+
+                                        </p>
+                                    </blockquote>
+                                    <div class="testimonial-author">
+                                        <p>
+                                            <strong>Daniel Watrosu</strong>
+                                            <span>CEO & Founder - Google</span>
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    
-    <!--  ======================= End Blog Area =============================  -->
-    <!--  ======================= Start About us Area =============================  -->
-    <section id="team" class="team-area pb-5">
-        <div class="container">
-            <h5 class="section-title h1">OUR TEAM</h5>
-            <div class="row">
-                <!-- Team member -->
-                <div class="col-xs-12 col-sm-6 col-md-4">
-                    <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
-                        <div class="mainflip">
-                            <div class="frontside">
-                                <div class="card">
-                                    <div class="card-body text-center">
-                                        <p><img class=" img-fluid" src="./images/team/Hrishikesh.jpeg" alt="card image"></p>
-                                        <h4 class="card-title">Hrishikesh</h4>
-                                        <p class="card-text">Co-founder, Head Sales Marketing</p>
-                                        <!-- <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a> -->
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="backside">
-                                <div class="card">
-                                    <div class="card-body text-center mt-4">
-                                        <h4 class="card-title">Hrishikesh</h4>
-                                        <p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
-                                        <ul class="list-inline">
-                                            <li class="list-inline-item">
-                                                <a class="social-icon text-xs-center abc" target="_blank" href="#">
-                                                    <i class="fab fa-facebook"></i>
-                                                </a>
-                                            </li>
-                                            <li class="list-inline-item">
-                                                <a class="social-icon text-xs-center abc" target="_blank" href="#">
-                                                    <i class="fab fa-twitter"></i>
-                                                </a>
-                                            </li>
-                                            <li class="list-inline-item">
-                                                <a class="social-icon text-xs-center abc" target="_blank" href="#">
-                                                    <i class="fab fa-linkedin"></i>
-                                                </a>
-                                            </li>
-                                            <li class="list-inline-item">
-                                                <a class="social-icon text-xs-center abc" target="_blank" href="#">
-                                                    <i class="fab fa-google"></i>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- ./Team member -->
-                <!-- Team member -->
-                <div class="col-xs-12 col-sm-6 col-md-4">
-                    <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
-                        <div class="mainflip">
-                            <div class="frontside">
-                                <div class="card">
-                                    <div class="card-body text-center">
-                                        <p><img class=" img-fluid" src="./images/team/Saurabh.jpeg" alt="card image"></p>
-                                        <h4 class="card-title">Saurabh</h4>
-                                        <p class="card-text">Co-founder, Head Finance</p>
-                                     </div>
-                                </div>
-                            </div>
-                            <div class="backside">
-                                <div class="card">
-                                    <div class="card-body text-center mt-4">
-                                        <h4 class="card-title">Saurabh</h4>
-                                        <p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
-                                        <ul class="list-inline">
-                                            <li class="list-inline-item">
-                                                <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                    <i class="fab fa-facebook"></i>
-                                                </a>
-                                            </li>
-                                            <li class="list-inline-item">
-                                                <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                    <i class="fab fa-twitter"></i>
-                                                </a>
-                                            </li>
-                                            <li class="list-inline-item">
-                                                <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                    <i class="fab fa-linkedin"></i>
-                                                </a>
-                                            </li>
-                                            <li class="list-inline-item">
-                                                <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                    <i class="fab fa-google"></i>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- ./Team member -->
-                <!-- Team member -->
-                <div class="col-xs-12 col-sm-6 col-md-4">
-                    <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
-                        <div class="mainflip">
-                            <div class="frontside">
-                                <div class="card">
-                                    <div class="card-body text-center">
-                                        <p><img class=" img-fluid" src="./images/team/Abhijeet.jpeg" alt="card image"></p>
-                                        <h4 class="card-title">Abhijeet</h4>
-                                        <p class="card-text">Co-founder, Head Operations</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="backside">
-                                <div class="card">
-                                    <div class="card-body text-center mt-4">
-                                        <h4 class="card-title">Abhijeet</h4>
-                                        <p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
-                                        <ul class="list-inline">
-                                            <li class="list-inline-item">
-                                                <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                    <i class="fab fa-facebook"></i>
-                                                </a>
-                                            </li>
-                                            <li class="list-inline-item">
-                                                <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                    <i class="fab fa-twitter"></i>
-                                                </a>
-                                            </li>
-                                            <li class="list-inline-item">
-                                                <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                    <i class="fab fa-skype"></i>
-                                                </a>
-                                            </li>
-                                            <li class="list-inline-item">
-                                                <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                    <i class="fab fa-google"></i>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- ./Team member -->
-               
-            </div>
-        </div>
-    </section>
-    <!-- Team -->  <!--  ======================= End About us Area =============================  -->
+        </section>
 
-    
-    <!--  ======================= Start contact us Area =============================  -->
-    <section id="contact" class="contact-us">
-    <div class="container">
-        <div style="text-align:center">
-          <h2>Contact Us</h2>
-        </div>
-        <div class="row">
-          <div class="column">
-            <img src="./images/portfolio/p1.jpg" style="width:100%">
-          </div>
-          <div class="column">
-            <form action="/action_page.php">
-              <label for="fname">Name</label>
-              <input type="text" id="name" name="name" placeholder="Name">
-              <label for="lname">Email</label>
-              <input type="email"  name="email" placeholder="Email">
-              <label for="lname">Contact No</label>
-              <input type="number"  name="Number" placeholder="Contact No.">
-              <label for="subject">Message</label>
-              <textarea id="subject" name="subject" placeholder="Message" style="height:90px"></textarea>
-              <input type="submit" value="Submit">
-            </form>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--  ======================= End Contact us Area =============================  -->
-    
+        <!--############################## End of Testimonials  #######################################-->
+
+        <!--############################## Start of Blog ###############################################-->
+        <section id="blog" class="blog-area">
+            <div class="container">
+                <h1 class="text-center">Alta Technologia Blog</h1>
+                <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, vero.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, vero.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, vero.
+                </p>
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <div class="single-blog">
+                            <p class="blog-meta">
+                                By Admin <span>January 26,2020</span>
+                            </p>
+                            <img src="./images/Blog/1.jpg" alt="Blog-img">
+                            <h2><a href="#">Learn How to Automate your home</a></h2>
+                            <p class="blog-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Ex eius natus, eos dicta corporis explicabo deleniti nemo quaerat aspernatur
+                                deserunt voluptatem, veniam quisquam velit possimus quis exercitationem!
+                                Expedita, tempore numquam.
+                            </p>
+                            <p><a href="#" class="read-more-btn">Read More</a>
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <div class="single-blog">
+                            <p class="blog-meta">
+                                By Admin <span>January 26,2020</span>
+                            </p>
+                            <img src="./images/Blog/2.jpg" alt="Blog-img">
+                            <h2><a href="#">Learn How to Automate your home</a></h2>
+                            <p class="blog-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Ex eius natus, eos dicta corporis explicabo deleniti nemo quaerat aspernatur
+                                deserunt voluptatem, veniam quisquam velit possimus quis exercitationem!
+                                Expedita, tempore numquam.
+                            </p>
+                            <p><a href="#" class="read-more-btn">Read More</a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <div class="single-blog">
+                            <p class="blog-meta">
+                                By Admin <span>January 26,2020</span>
+                            </p>
+                            <img src="./images/Blog/3.jpg" alt="Blog-img">
+                            <h2><a href="#">Learn How to Automate your home</a></h2>
+                            <p class="blog-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Ex eius natus, eos dicta corporis explicabo deleniti nemo quaerat aspernatur
+                                deserunt voluptatem, veniam quisquam velit possimus quis exercitationem!
+                                Expedita, tempore numquam.
+                            </p>
+                            <p><a href="#" class="read-more-btn">Read More</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--############################## End of Blog ###############################################-->
+
+        <!--############################# Start of About us ###########################################-->
+
+        <section id="about" class="team-area">
+            <div class="container">
+                <h1>Our Team</h1>
+                <div class="row">
+                    <div class="col-md-4 profile text-center">
+                        <div class="img-box">
+                            <img src="./images/team/Hrishikesh.jpeg" alt="Hrishikesh" class="img-responsive">
+                            <ul>
+                                <a href="#">
+                                    <li><i class="fab fa-facebook"></i></li>
+                                </a>
+                                <a href="#">
+                                    <li><i class="fab fa-twitter"></i></li>
+                                </a>
+                                <a href="#">
+                                    <li><i class="fab fa-linkedin"></i></li>
+                                </a>
+                            </ul>
+                        </div>
+                        <h2>Hrishikesh Hirde</h2>
+                        <h3>Co-founder, Head Sales Marketing</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem minima expedita ducimus
+                            iure nesciunt libero?</p>
+                    </div>
+
+                    <div class="col-md-4 profile text-center">
+                        <div class="img-box">
+                            <img src="./images/team/Saurabh.jpeg" alt="Saurabh" class="img-responsive">
+                            <ul>
+                                <a href="#">
+                                    <li><i class="fab fa-facebook"></i></li>
+                                </a>
+                                <a href="#">
+                                    <li><i class="fab fa-twitter"></i></li>
+                                </a>
+                                <a href="#">
+                                    <li><i class="fab fa-linkedin"></i></li>
+                                </a>
+                            </ul>
+                        </div>
+                        <h2>Saurabh Bansal</h2>
+                        <h3>Co-founder, Head Finance</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem minima expedita ducimus
+                            iure nesciunt libero?</p>
+                    </div>
+
+                    <div class="col-md-4 profile text-center">
+                        <div class="img-box">
+                            <img src="./images/team/Abhijeet.jpeg" alt="Abhijeet" class="img-responsive">
+                            <ul>
+                                <a href="#">
+                                    <li><i class="fab fa-facebook"></i></li>
+                                </a>
+                                <a href="#">
+                                    <li><i class="fab fa-twitter"></i></li>
+                                </a>
+                                <a href="#">
+                                    <li><i class="fab fa-linkedin"></i></li>
+                                </a>
+                            </ul>
+                        </div>
+                        <h2>Abhijeet</h2>
+                        <h3>Co-founder, Head Operations</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem minima expedita ducimus
+                            iure nesciunt libero?</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!--############################# End of About us ###########################################-->
+
+
+        <!--  ======================= Start contact us Area =============================  -->
+        <!-- <section id="contact" class="contact-us">
+            <div class="container">
+                <div style="text-align:center">
+                    <h2>Contact Us</h2>
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <img src="./images/portfolio/p1.jpg" style="width:100%">
+                        <div class="py-4">
+                            Our Address:
+                            <br>310, Laxmi Rd, <br> Anutej Symphony Society, <br> New Nana Peth, Rasta Peth, <br> Pune,
+                            Maharashtra 411002
+                        </div>
+                    </div>
+                    <div class="column">
+                        <form action="/action_page.php">
+                            <label for="fname">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Name">
+                            <label for="lname">Email</label>
+                            <input type="email" name="email" placeholder="Email">
+                            <label for="lname">Contact No</label>
+                            <input type="number" name="Number" placeholder="Contact No.">
+                            <label for="subject">Message</label>
+                            <textarea id="subject" name="subject" placeholder="Message" style="height:90px"></textarea>
+                            <input type="submit" value="Submit">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 m-auto">
+                        <div class="card">
+                            <div class="card-title">
+                                <h2 class="text-center py-2">Contact Us</h2>
+                                <hr>
+                            </div>
+                            <div class="card-body">
+                                <form action="process.php" method="post">
+                                    <input type="text" name="Name" placeholder="Name" class="form-control mb-2">
+                                    <input type="email" name="Email" placeholder="Email" class="form-control mb-2">
+                                    <input type="text" name="Number" placeholder="Contact No."
+                                        class="form-control mb-2">
+                                    <textarea name="msg" class="form-control" placeholder="Message"></textarea>
+                                    <button class="btn btn-success" name="btn-send">
+                                        Send
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container second-portion">
+                <div class="row">
+                    <!-- Boxes de Acoes -->
+                    <div class="col-xs-12 col-sm-6 col-lg-4">
+                        <div class="box">
+                            <div class="icon">
+                                <div class="image"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+                                <div class="info">
+                                    <!-- <h3 class="title">MAIL & WEBSITE</h3> -->
+                                    <p>
+                                        <i class="fa fa-envelope" aria-hidden="true"></i> &nbsp
+                                        gondhiyahardik6610@gmail.com
+                                        <br>
+                                        <br>
+                                        <i class="fa fa-globe" aria-hidden="true"></i> &nbsp www.hardikgondhiya.com
+                                    </p>
+
+                                </div>
+                            </div>
+                            <div class="space"></div>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6 col-lg-4">
+                        <div class="box">
+                            <div class="icon">
+                                <div class="image"><i class="fa fa-mobile" aria-hidden="true"></i></div>
+                                <div class="info">
+                                    <!-- <h3 class="title">CONTACT</h3> -->
+                                    <p>
+                                        <i class="fa fa-mobile" aria-hidden="true"></i> &nbsp (+91)-9624XXXXX
+                                        <br>
+                                        <br>
+                                        <i class="fa fa-mobile" aria-hidden="true"></i> &nbsp (+91)-756706XXXX
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="space"></div>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6 col-lg-4">
+                        <div class="box">
+                            <div class="icon">
+                                <div class="image"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                                <div class="info">
+                                    <!-- <h3 class="title">ADDRESS</h3> -->
+                                    <p>
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp 15/3 Junction Plot
+                                        "Shree Krishna Krupa", Rajkot - 360001.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="space"></div>
+                        </div>
+                    </div>
+                    <!-- /Boxes de Acoes -->
+
+                </div>
+            </div>
+        </section>
+
+
+        <!--  ======================= End Contact us Area =============================  -->
+
+
+
     </main>
-    <!--########################### End Main Area ######################################### -->
+    <!--################################### End of Main Area #############################################-->
 
     <!--  ======================= start Footer Area =============================  -->
     <footer class="footer-area">
@@ -836,16 +1061,16 @@
                 </div>
                 <div class="social text-center">
                     <h5 class="text-uppercase">
-                        Follow me
+                        Follow us
                     </h5>
                     <a href="#"><i class="fab fa-facebook"></i></a>
                     <a href="#"><i class="fab fa-instagram"></i></a>
                     <a href="#"><i class="fab fa-youtube"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
                 </div>
                 <div class="copyrights text-center">
                     <p class="para">
-                        Copyright ©2020 All rights reserved | This Website is made with by 
+                        Copyright ©2020 All rights reserved | This Website is made by
                         <a href="#">
                             <span style="color: var(--primary-color);">Alta Tecnologia</span>
                         </a>
@@ -859,46 +1084,38 @@
     <!--  ======================= End Footer Area =============================  -->
 
 
-
-
-    <!-- Jquery js file -->
+    <!-- jQuiry js file -->
     <script src="./js/jquery_3.4.1.js"></script>
 
-    <!-- Bootstrap js file -->
-    <script src="./js/bootstrap.min.js"></script>    
+    <!-- Bootstrap Js file -->
+    <script src="./js/bootstrap.min.js"></script>
 
-    <!-- isotope js library -->
+    <!--  Owl-carousel js file  -->
+    <script src="./vendor/owl-carousel/js/owl.carousel.min.js"></script>
+
+    <!-- isotope Js file -->
     <script src="./vendor/isotope/isotope.min.js"></script>
-    
-    <!-- Magnific popup Script file -->
-    <script src="./vendor/Magnific-Popup/dist/jquery.magnific-popup.min.js"></script>
-
-      <!--  Owl-carousel js file  -->
-      <script src="./vendor/owl-carousel/js/owl.carousel.min.js"></script>
 
 
     <!-- Custom JS file -->
     <script src="./js/main.js"></script>
 
-     <!-- Custom JS file -->
-     <script src="./js/events.js"></script>
-     <!-- ////For Owl Carousel////////////// -->
-     <script type="text/javascript">
-     $(document).ready(function () {
-        $('.owl-carousel').owlCarousel({
-             responsive: {
-        0: {
-          items: 1
-        },
-        600: {
-          items: 1
-        },
-        1000: {
-          items: 3
-        }
-      }
-        }); 
-     });
-     </script>
+
+
+    <script>
+        $(function () {
+            $(".site-main .testimonial-area #customers-testimonial").owlCarousel({
+                items: 1,
+                autoplay: true,
+                smartSpeed: 700,
+                loop: true,
+                autoplayHoverPause: true
+
+            });
+        });
+
+    </script>
+
 </body>
+
 </html>

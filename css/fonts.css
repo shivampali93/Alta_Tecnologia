@@ -1,9 +1,6 @@
-
-
-/* @font-face */ 
+/* @font-face */
 
 @font-face{
-    font-family: "Poppins";
-    src: '../fonts/Pippins/Poppins-Regular.ttf';
+    font-family: "Roboto";
+    src: '../fonts/Roboto-Regular.ttf';
 }
-
